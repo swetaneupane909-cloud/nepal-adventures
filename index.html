@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2249%22%20fill%3D%22%2312305a%22/%3E%3Ccircle%20cx%3D%2262%22%20cy%3D%2234%22%20r%3D%2211%22%20fill%3D%22%23f28c28%22/%3E%3Cpath%20d%3D%22M12%2076%2044%2024l14%2022%208-10%2022%2040z%22%20fill%3D%22%23f7fafc%22/%3E%3C/svg%3E">
+<title>Nepal Adventures – Sustainable Tourism in Nepal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Mukta:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap nav">
+ <a class="brand" href="#/" aria-label="Nepal Adventures home">
+  <svg class="logo" width="52" height="52" viewBox="0 0 100 100" role="img" aria-label="Nepal Adventures logo"><defs><linearGradient id="lgS" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7db9e8"/><stop offset="1" stop-color="#e3f0fa"/></linearGradient><clipPath id="lgC"><circle cx="50" cy="50" r="44"/></clipPath></defs><circle cx="50" cy="50" r="49" fill="#12305a"/><g clip-path="url(#lgC)"><rect width="100" height="100" fill="url(#lgS)"/><circle cx="64" cy="33" r="11" fill="#f28c28"/><path d="M0 62 22 40l14 14 14-22 18 22 12-14 20 20v20H0z" fill="#6d9bc8"/><path d="M16 68 44 22l12 16 8-8 22 38z" fill="#f7fafc"/><path d="M44 22 36 38l6 3 4-5 6 6 4-7z" fill="#b9d5ec"/><path d="M0 76q30-14 56-2t44-8v34H0z" fill="#eef3f7"/><circle cx="22" cy="46" r="3.2" fill="#12305a"/><path d="M19 50h7l3 10-4 1-1 8h-3l-1-9-3 2z" fill="#12305a"/><path d="M76 52h10l-5-6zM74 58h14l-7-7zM72 64h18l-9-8z" fill="#9a5b22"/><path d="M68 38 98 46" stroke="#12305a" stroke-width=".8"/><path d="M72 39l3 1-1 4zM79 41l3 1-1 4zM86 43l3 1-1 4z" fill="#e0483c"/></g><text x="50" y="80" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-weight="700" font-size="16" fill="#12305a">Nepal</text><text x="50" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="6.5" letter-spacing=".6" fill="#12305a">ADVENTURES</text></svg>
+  <span>Nepal Adventures<small>Sustainable tourism</small></span></a>
+ <nav aria-label="Main"><ul id="links"><li><a href="#packages">Trips</a></li><li><a href="#why">Our promise</a></li><li><a href="#contact">Contact</a></li><li><a href="#/book">Book</a></li><li><button class="btn alt" id="loginBtn" style="padding:6px 16px">Log in</button></li></ul></nav>
+ <button id="menu" aria-label="Open menu" aria-expanded="false">☰</button>
+</div></header>
+
+<main id="v-home" class="view on">
+<div class="hero"><div class="wrap">
+ <div>
+  <h1>Travel Nepal.<br>Leave it better.</h1>
+  <p>Stay in village homestays, walk with local guides, and put your money where it protects forests, wildlife and mountain culture.</p>
+  <div class="cta"><a class="btn red" href="#/book" style="text-decoration:none">Book a trip</a><a class="btn alt" href="#why" style="text-decoration:none">How we give back</a></div>
+ </div>
+</div><div class="flags"><i style="background:#2d5f8b"></i><i style="background:#fff"></i><i style="background:#c8372d"></i><i style="background:#3f9a5f"></i><i style="background:#e8b33a"></i></div></div>
+
+<section id="packages"><div class="wrap">
+ <h2>9 places to explore responsibly</h2>
+ <p class="lead">From Everest to the Terai, every trip uses small groups, local guides and community-run stays. Prices are per person in Nepali rupees (NPR) and include stay, meals, permits and guide.</p>
+ <div class="chips" id="chips" role="group" aria-label="Filter trips"></div>
+ <p class="meta" style="margin:0 0 20px"><b>Levels:</b> Easy means short walks at low altitude. Moderate means 4–6 hours of walking a day. Challenging means high altitude and long days, so good fitness is needed.</p>
+ <div class="grid" id="pkgGrid"></div>
+</div></section>
+
+<section id="why" style="background:var(--card)"><div class="wrap pillars">
+ <h2>Our promise</h2>
+ <p class="lead">Every booking follows four rules, checked each season with the communities we work with.</p>
+ <div class="grid">
+  <div class="card"><h3>Local income</h3><p>At least 70% of your price stays in the village: homestay families, porters, guides and farmers.</p></div>
+  <div class="card"><h3>Low waste</h3><p>Carry a refillable bottle. We fund water refill points so no plastic bottles are used on the trail.</p></div>
+  <div class="card"><h3>Nature first</h3><p>Fixed group sizes, marked trails, and a per-trip contribution to forest and wildlife rangers.</p></div>
+  <div class="card"><h3>Culture respected</h3><p>Guests join festivals and farm work by invitation, with a briefing on local customs before each trip.</p></div>
+ </div>
+</div></section>
+
+<div class="impact"><div class="wrap" id="stats"></div></div>
+
+<section class="contact" id="contact"><div class="wrap">
+ <div class="info">
+  <h2>Contact us</h2>
+  <p class="lead">Ask about routes, group bookings or school trips. We reply within one working day.</p>
+    <p><b>Phone / WhatsApp:</b> <a href="tel:+9779800000000">+977 980-0000000</a></p>
+  <p><b>Email:</b> <a href="mailto:hello@nepaladventures.example">hello@nepaladventures.example</a></p>
+  <p><b>Hours:</b> Sun–Fri, 9:00–17:00 (NPT)</p>
+ </div>
+ <div>
+  <label for="cn">Your name</label><input id="cn" autocomplete="name">
+  <label for="ce">Email</label><input id="ce" type="email" autocomplete="email">
+  <label for="cm">Message</label><textarea id="cm" rows="4"></textarea>
+  <p><button class="btn" id="sendMsg">Send message</button></p>
+  <div class="msg" id="cmsg" role="status"></div>
+ </div>
+</div></section>
+</main>
+<footer><div class="wrap"><p id="credits" class="meta" style="margin:0 0 8px"></p>© 2026 Nepal Adventures. Demo site: bookings and login are stored only in this browser.</div></footer>
+
+
+<section class="view" id="v-login"><div class="wrap narrow"><div class="panel">
+ <h2>Your account</h2><p class="lead" style="margin-bottom:0">Log in to keep your bookings in one place.</p>
+ <div class="tabs"><button id="tabIn" class="act">Log in</button><button id="tabUp">Create account</button></div>
+ <div id="fIn">
+  <label for="ie">Email</label><input id="ie" type="email" autocomplete="email">
+  <label for="ip">Password</label><input id="ip" type="password" autocomplete="current-password">
+  <p><button class="btn" id="doIn" style="width:100%">Log in</button></p>
+ </div>
+ <div id="fUp" hidden>
+  <label for="un">Full name</label><input id="un" autocomplete="name">
+  <label for="ue">Email</label><input id="ue" type="email" autocomplete="email">
+  <label for="up">Password (6+ characters)</label><input id="up" type="password" autocomplete="new-password">
+  <label for="uc">Confirm password</label><input id="uc" type="password" autocomplete="new-password">
+  <p><button class="btn" id="doUp" style="width:100%">Create account</button></p>
+ </div>
+ <div class="msg" id="lmsg" role="status"></div>
+ <p class="meta">Demo: accounts are stored only in this browser.</p>
+</div></div></section>
+
+<section class="view" id="v-book"><div class="wrap">
+ <h2>Book your trip</h2><p class="lead">No payment is taken on this page. We confirm availability, then send payment details.</p>
+ <div class="two">
+  <div class="panel">
+   <div id="bForm">
+    <p class="meta">All fields are required except special requests.</p>
+    <p class="meta" id="bLoginNote">Have an account? <a href="#/login" id="goLogin">Log in</a> to see this booking under My bookings. You can also book without one.</p>
+    <label for="bTrip">Trip</label><select id="bTrip"></select>
+    <div class="row"><div><label for="bDate">Start date</label><input id="bDate" type="date"></div><div><label for="bGuests">Guests</label><select id="bGuests"></select></div></div>
+    <label for="bName">Full name</label><input id="bName" autocomplete="name">
+    <div class="row"><div><label for="bEmail">Email</label><input id="bEmail" type="email" autocomplete="email"></div><div><label for="bPhone">Phone / WhatsApp</label><input id="bPhone" type="tel" autocomplete="tel" placeholder="+977 98..."></div></div>
+    <label for="bNote">Food needs or special requests (optional)</label><textarea id="bNote" rows="3"></textarea>
+    <fieldset class="pay"><legend>How will you pay?</legend>
+          <label><input type="radio" name="pay" value="eSewa" checked> eSewa</label>
+     <label><input type="radio" name="pay" value="Khalti"> Khalti</label>
+     <label><input type="radio" name="pay" value="Bank transfer"> Bank transfer</label>
+    </fieldset>
+    <label class="chk"><input type="checkbox" id="bAgree"> I agree to the responsible travel code: carry out my waste, respect local customs and stay on marked trails.</label>
+    <div class="msg" id="bMsg" role="status"></div>
+    <p><button class="btn red" id="bGo" style="width:100%">Confirm booking</button></p>
+   </div>
+   <div id="bDone" hidden><h3>Booking received</h3><div id="dBody"></div><p><button class="btn" id="again">Book another trip</button></p></div>
+  </div>
+  <aside class="panel sum" aria-label="Booking summary"><h3>Your trip</h3>
+   <div><span>Trip</span><b id="sTrip"></b></div><div><span>Region</span><b id="sReg"></b></div><div><span>Length</span><b id="sDur"></b></div>
+   <div><span>Dates</span><b id="sDates"></b></div><div><span>Price per person</span><b id="sPP"></b></div><div><span>Guests</span><b id="sG"></b></div>
+   <div class="tot"><span>Total</span><span id="sTot"></span></div>
+  </aside>
+ </div>
+ <div class="panel" id="mine" hidden style="margin-top:24px"><h3>My bookings</h3><div id="mineList"></div></div>
+</div></section>
+
+<div class="modal" id="dM" role="dialog" aria-modal="true" aria-labelledby="dT"><div class="box wide">
+ <button class="x" data-close aria-label="Close">×</button>
+ <div id="dP"></div>
+ <h3 id="dT"></h3><div class="meta" id="dR"></div>
+ <p id="dBadges" style="margin:10px 0 0"></p>
+ <p id="dS"></p>
+ <ul class="hl" id="dH"></ul>
+ <dl class="dl" id="dL"></dl>
+ <p class="meta">The price covers stay, meals, permits and a guide, in small groups of up to 8. Travel times are approximate.</p>
+ <div class="acts"><button class="btn red" id="dBook">Book this trip</button><button class="btn alt" data-close>Close</button></div>
+</div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
